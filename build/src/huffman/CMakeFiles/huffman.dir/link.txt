@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libhuffman.a CMakeFiles/huffman.dir/buff_char.cpp.o
+/usr/bin/ranlib ../../../lib/libhuffman.a

@@ -1,0 +1,72 @@
+{
+	// 字号
+	"editor.fontSize": 18,
+	// code snippet
+	"editor.suggestSelection": "recentlyUsedByPrefix",
+	"editor.autoClosingBrackets": "always",
+	// 自动版本升级 
+	"update.mode": "none",
+	"editor.snippetSuggestions": "top", // snippets代码优先显示补全
+	"files.encoding": "utf8", //在读取和写入文件时使用的默认字符集编码。可以按语言对此项进行配置
+	//控制是否检测 "$LANG" 环境变量并将其设置为符合 UTF-8 的选项，因为 VS Code 的终端仅支持来自 shell 的 UTF-8 编码数据
+	"terminal.integrated.detectLocale": "off",
+
+	"editor.insertSpaces": true, // tab变为空格
+	"editor.tabSize": 2, // 缩进尺寸
+
+	// 设置光标类型
+	"editor.cursorStyle": "block", // 光标类型
+	"editor.cursorBlinking": "blink", // 光标闪烁类型,
+	"workbench.colorCustomizations": {
+		"editorCursor.foreground": "#ffffff"
+	},
+
+	// vim按键冲突配置
+	"vim.handleKeys": {
+		"<C-d>": true,
+		"<C-s>": true,
+		"<C-z>": false,
+		"<C-a>": false,
+		"<C-j>": false,
+		"<C-x>": false,
+		"<C-w>": false
+	},
+	// 字符长度折行
+	// "editor.wordWrap": "wordWrapColumn",
+	// "editor.wordWrapColumn": 80,
+
+	// c++设置
+	// clang-format配置设置
+	// "clang-format.style" : "file:./.clang-format", //从指定配置文件读取格式化风格。
+	"clang-format.style" : "file",
+	"clang-format.assumeFilename": "./.clang-format", //使用工作区独立配置文件
+	"clang-format.executable": "/usr/bin/clang-format",
+	"clang-format.fallbackStyle": "Google",
+
+	// cmake路径设置
+	"cmake.cmakePath": "/usr/bin/cmake",
+
+	// 使用clangd
+	// 不使用c/c++提供的代码提示
+	"C_Cpp.intelliSenseEngine": "disabled",
+	"clangd.path": "/usr/bin/clangd",
+
+	// 配置clangd数组
+	"clangd.arguments": [
+    "--j=3",
+    "--background-index",
+    "--header-insertion=never",
+    "--clang-tidy",
+    "--pretty",
+    "--function-arg-placeholders=false",
+    "--enable-config",
+    "--pch-storage=memory",
+    "--query-driver=/usr/bin/g++", // 编译器检查路径
+    "--compile-commands-dir=${workspaceFolder}/build",
+  ],
+
+	// 函数参数提示
+	"editor.inlayHints.enabled": "off",
+	// 代码提示时间
+	"editor.hover.delay": 300,
+}

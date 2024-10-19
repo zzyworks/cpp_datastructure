@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libprime.a CMakeFiles/prime.dir/eratosthenes.cpp.o CMakeFiles/prime.dir/prime_nlt.cpp.o
+/usr/bin/ranlib ../../../lib/libprime.a

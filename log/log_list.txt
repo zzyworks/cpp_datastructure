@@ -1,0 +1,246 @@
+
+  ==== Test  0. Generate two lists each of size 5 by random insertions
+4ListIiE[1181937440]*5:
+ 0002 0008 0008 0000 0004
+CRC = 0022
+Unsorted with 1 adjacent disordered pair(s)
+DISORDERED = 1
+4ListIiE[1181937472]*5:
+ 0002 0006 0008 0000 0006
+CRC = 0022
+Unsorted with 1 adjacent disordered pair(s)
+DISORDERED = 1
+
+  ==== Test  1. Call list members by rank (with high complexity)
+ 0002 0008 0008 0000 0004
+ 0002 0006 0008 0000 0006
+
+  ==== Test  2. Concatenation
+4ListIiE[1181937440]*5:
+ 0002 0008 0008 0000 0004
+CRC = 0022
+Unsorted with 1 adjacent disordered pair(s)
+DISORDERED = 1
+4ListIiE[1181937472]*5:
+ 0002 0006 0008 0000 0006
+CRC = 0022
+Unsorted with 1 adjacent disordered pair(s)
+DISORDERED = 1
+4ListIiE[1181937440]*10:
+ 0002 0008 0008 0000 0004 0002 0006 0008 0000 0006
+CRC = 0044
+Unsorted with 3 adjacent disordered pair(s)
+DISORDERED = 3
+4ListIiE[1181937472]*0:
+
+CRC = 0000
+Sorted
+DISORDERED = 0
+
+  ==== Test  3. Increase
+4ListIiE[1181937440]*10:
+ 0002 0008 0008 0000 0004 0002 0006 0008 0000 0006
+CRC = 0044
+Unsorted with 3 adjacent disordered pair(s)
+DISORDERED = 3
+4ListIiE[1181937440]*10:
+ 0003 0009 0009 0001 0005 0003 0007 0009 0001 0007
+CRC = 0054
+Unsorted with 3 adjacent disordered pair(s)
+DISORDERED = 3
+
+  ==== Test  4. Lowpass (with high complexity) on
+4ListIiE[1181937440]*10:
+ 0003 0009 0009 0001 0005 0003 0007 0009 0001 0007
+CRC = 0054
+Unsorted with 3 adjacent disordered pair(s)
+DISORDERED = 3
+4ListIiE[1181937440]*10:
+ 0005 0007 0005 0002 0004 0004 0006 0006 0004 0007
+CRC = 0050
+Unsorted with 3 adjacent disordered pair(s)
+DISORDERED = 3
+
+  ==== Test  5. reverse
+4ListIiE[1181937440]*10:
+ 0004 0006 0006 0004 0004 0002 0005 0007 0005 0000
+CRC = 0043
+Unsorted with 4 adjacent disordered pair(s)
+DISORDERED = 4
+
+  ==== Test  6. Copy
+4ListIiE[1181937440]*10:
+ 0004 0006 0006 0004 0004 0002 0005 0007 0005 0000
+CRC = 0043
+Unsorted with 4 adjacent disordered pair(s)
+DISORDERED = 4
+4ListIiE[1181937504]*10:
+ 0004 0006 0006 0004 0004 0002 0005 0007 0005 0000
+CRC = 0043
+Unsorted with 4 adjacent disordered pair(s)
+DISORDERED = 4
+
+  ==== Test  7. Trim by random deletions
+4ListIiE[1181937504]*10:
+ 0004 0006 0006 0004 0004 0002 0005 0007 0005 0000
+CRC = 0043
+Unsorted with 4 adjacent disordered pair(s)
+DISORDERED = 4
+removing L[5]= 0002 ...
+4ListIiE[1181937504]*9:
+ 0004 0006 0006 0004 0004 0005 0007 0005 0000
+CRC = 0041
+Unsorted with 3 adjacent disordered pair(s)
+DISORDERED = 3
+removing L[0]= 0004 ...
+4ListIiE[1181937504]*8:
+ 0006 0006 0004 0004 0005 0007 0005 0000
+CRC = 0037
+Unsorted with 3 adjacent disordered pair(s)
+DISORDERED = 3
+removing L[0]= 0006 ...
+4ListIiE[1181937504]*7:
+ 0006 0004 0004 0005 0007 0005 0000
+CRC = 0031
+Unsorted with 3 adjacent disordered pair(s)
+DISORDERED = 3
+removing L[5]= 0005 ...
+4ListIiE[1181937504]*6:
+ 0006 0004 0004 0005 0007 0000
+CRC = 0026
+Unsorted with 2 adjacent disordered pair(s)
+DISORDERED = 2
+removing L[0]= 0006 ...
+4ListIiE[1181937504]*5:
+ 0004 0004 0005 0007 0000
+CRC = 0020
+Unsorted with 1 adjacent disordered pair(s)
+DISORDERED = 1
+removing L[4]= 0000 ...
+4ListIiE[1181937504]*4:
+ 0004 0004 0005 0007
+CRC = 0020
+Sorted
+DISORDERED = 0
+removing L[3]= 0007 ...
+4ListIiE[1181937504]*3:
+ 0004 0004 0005
+CRC = 0013
+Sorted
+DISORDERED = 0
+removing L[0]= 0004 ...
+4ListIiE[1181937504]*2:
+ 0004 0005
+CRC = 0009
+Sorted
+DISORDERED = 0
+removing L[1]= 0005 ...
+4ListIiE[1181937504]*1:
+ 0004
+CRC = 0004
+Sorted
+DISORDERED = 0
+
+  ==== Test  8. Copy
+4ListIiE[1181937440]*10:
+ 0004 0006 0006 0004 0004 0002 0005 0007 0005 0000
+CRC = 0043
+Unsorted with 4 adjacent disordered pair(s)
+DISORDERED = 4
+4ListIiE[1181937536]*10:
+ 0004 0006 0006 0004 0004 0002 0005 0007 0005 0000
+CRC = 0043
+Unsorted with 4 adjacent disordered pair(s)
+DISORDERED = 4
+
+  ==== Test  9. FIND in
+4ListIiE[1181937536]*10:
+ 0004 0006 0006 0004 0004 0002 0005 0007 0005 0000
+CRC = 0043
+Unsorted with 4 adjacent disordered pair(s)
+DISORDERED = 4
+Looking for  0000:  found with 0000
+Looking for  0001:  found with 0000
+Looking for  0002:  found with 0002
+Looking for  0003:  found with 0000
+Looking for  0004:  found with 0004
+Looking for  0005:  found with 0005
+Looking for  0006:  found with 0006
+Looking for  0007:  found with 0007
+Looking for  0008:  found with 0000
+Looking for  0009:  found with 0000
+Looking for  0010:  found with 0000
+
+  ==== Test 10. Sort
+4ListIiE[1181937440]*10:
+ 0004 0006 0006 0004 0004 0002 0005 0007 0005 0000
+CRC = 0043
+Unsorted with 4 adjacent disordered pair(s)
+DISORDERED = 4
+4ListIiE[1181937440]*10:
+ 0000 0002 0004 0004 0004 0005 0005 0006 0006 0007
+CRC = 0043
+Sorted
+DISORDERED = 0
+
+  ==== Test 11. SEARCH in
+4ListIiE[1181937440]*10:
+ 0000 0002 0004 0004 0004 0005 0005 0006 0006 0007
+CRC = 0043
+Sorted
+DISORDERED = 0
+Looking for  0000:  stopped at 0000 and found
+Looking for  0001:  stopped at 0000
+Looking for  0002:  stopped at 0002 and found
+Looking for  0003:  stopped at 0002
+Looking for  0004:  stopped at 0004 and found
+Looking for  0005:  stopped at 0005 and found
+Looking for  0006:  stopped at 0006 and found
+Looking for  0007:  stopped at 0007 and found
+Looking for  0008:  stopped at 0007
+Looking for  0009:  stopped at 0007
+Looking for  0010:  stopped at 0007
+
+  ==== Test 12. Remove redundancy in
+4ListIiE[1181937440]*10:
+ 0000 0002 0004 0004 0004 0005 0005 0006 0006 0007
+CRC = 0043
+Sorted
+DISORDERED = 0
+4 node(s) removed
+4ListIiE[1181937440]*6:
+ 0000 0002 0004 0005 0006 0007
+CRC = 0024
+Sorted
+DISORDERED = 0
+4ListIiE[1181937440]*6:
+ 0006 0005 0004 0002 0000 0007
+CRC = 0024
+Unsorted with 4 adjacent disordered pair(s)
+DISORDERED = 4
+
+  ==== Test 13. Remove redundancy in
+4ListIiE[1181937536]*10:
+ 0004 0006 0006 0004 0004 0002 0005 0007 0005 0000
+CRC = 0043
+Unsorted with 4 adjacent disordered pair(s)
+DISORDERED = 4
+4 node(s) removed
+4ListIiE[1181937536]*6:
+ 0006 0004 0002 0007 0005 0000
+CRC = 0024
+Unsorted with 4 adjacent disordered pair(s)
+DISORDERED = 4
+
+  ==== Test 14. Sort
+4ListIiE[1181937536]*6:
+ 0006 0004 0002 0007 0005 0000
+CRC = 0024
+Unsorted with 4 adjacent disordered pair(s)
+DISORDERED = 4
+4ListIiE[1181937536]*6:
+ 0000 0002 0004 0005 0006 0007
+CRC = 0024
+Sorted
+DISORDERED = 0
+2024-09-29 18:21:42

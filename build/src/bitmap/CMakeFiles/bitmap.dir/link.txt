@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libbitmap.a CMakeFiles/bitmap.dir/bitmap.cpp.o
+/usr/bin/ranlib ../../../lib/libbitmap.a

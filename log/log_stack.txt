@@ -1,0 +1,89 @@
+
+  ==== Test  0. Growing stack
+pushing  0000 ...
+5StackIi6VectorIiEE[1090075392]*1:
+ 0000
+poping with ...  0000
+5StackIi6VectorIiEE[1090075392]*0:
+
+pushing  0000 ...
+5StackIi6VectorIiEE[1090075392]*1:
+ 0000
+pushing  0000 ...
+5StackIi6VectorIiEE[1090075392]*2:
+ 0000 0000
+pushing  0005 ...
+5StackIi6VectorIiEE[1090075392]*3:
+ 0000 0000 0005
+pushing  0005 ...
+5StackIi6VectorIiEE[1090075392]*4:
+ 0000 0000 0005 0005
+pushing  0005 ...
+5StackIi6VectorIiEE[1090075392]*5:
+ 0000 0000 0005 0005 0005
+
+  ==== Test  1. Shrinking stack
+poping with ...  0005
+5StackIi6VectorIiEE[1090075392]*4:
+ 0000 0000 0005 0005
+pushing  0007 ...
+5StackIi6VectorIiEE[1090075392]*5:
+ 0000 0000 0005 0005 0007
+pushing  0006 ...
+5StackIi6VectorIiEE[1090075392]*6:
+ 0000 0000 0005 0005 0007 0006
+poping with ...  0006
+5StackIi6VectorIiEE[1090075392]*5:
+ 0000 0000 0005 0005 0007
+poping with ...  0007
+5StackIi6VectorIiEE[1090075392]*4:
+ 0000 0000 0005 0005
+pushing  0007 ...
+5StackIi6VectorIiEE[1090075392]*5:
+ 0000 0000 0005 0005 0007
+pushing  0004 ...
+5StackIi6VectorIiEE[1090075392]*6:
+ 0000 0000 0005 0005 0007 0004
+poping with ...  0004
+5StackIi6VectorIiEE[1090075392]*5:
+ 0000 0000 0005 0005 0007
+poping with ...  0007
+5StackIi6VectorIiEE[1090075392]*4:
+ 0000 0000 0005 0005
+poping with ...  0005
+5StackIi6VectorIiEE[1090075392]*3:
+ 0000 0000 0005
+pushing  0003 ...
+5StackIi6VectorIiEE[1090075392]*4:
+ 0000 0000 0005 0003
+pushing  0004 ...
+5StackIi6VectorIiEE[1090075392]*5:
+ 0000 0000 0005 0003 0004
+poping with ...  0004
+5StackIi6VectorIiEE[1090075392]*4:
+ 0000 0000 0005 0003
+poping with ...  0003
+5StackIi6VectorIiEE[1090075392]*3:
+ 0000 0000 0005
+poping with ...  0005
+5StackIi6VectorIiEE[1090075392]*2:
+ 0000 0000
+poping with ...  0000
+5StackIi6VectorIiEE[1090075392]*1:
+ 0000
+pushing  0001 ...
+5StackIi6VectorIiEE[1090075392]*2:
+ 0000 0001
+pushing  0001 ...
+5StackIi6VectorIiEE[1090075392]*3:
+ 0000 0001 0001
+poping with ...  0001
+5StackIi6VectorIiEE[1090075392]*2:
+ 0000 0001
+poping with ...  0001
+5StackIi6VectorIiEE[1090075392]*1:
+ 0000
+poping with ...  0000
+5StackIi6VectorIiEE[1090075392]*0:
+
+2024-09-29 18:38:59

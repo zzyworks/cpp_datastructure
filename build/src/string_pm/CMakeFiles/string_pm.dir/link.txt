@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libstring_pm.a CMakeFiles/string_pm.dir/pm_brute_1.cpp.o CMakeFiles/string_pm.dir/pm_brute_2.cpp.o CMakeFiles/string_pm.dir/pm_kmp.cpp.o CMakeFiles/string_pm.dir/string_pm.cpp.o
+/usr/bin/ranlib ../../../lib/libstring_pm.a

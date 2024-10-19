@@ -1,0 +1,1 @@
+1. 使用valgrind检测内存泄漏问题 valgrind --tool=memcheck --leak-check=full --show-reachable=yes --trace-children=yes  --log-file=${输出文件路径} ${可执行文件}

@@ -1,0 +1,91 @@
+3 random keys created:
+ 0006 0003 0000
+11PQComplHeapIiE[0x7ffc501166d0]*1:
+ 0006 *── 0006 
+
+Inserting 0006 ...
+Insertion done
+11PQComplHeapIiE[0x7ffc501166d0]*2:
+ 0006 *── 0006 
+ 0006 *      └─ 0006 
+
+Inserting 0009 ...
+Insertion done
+11PQComplHeapIiE[0x7ffc501166d0]*3:
+ 0006 *      ┌─ 0006 
+ 0009 *── 0009 
+ 0006 *      └─ 0006 
+
+Inserting 0014 ...
+Insertion done
+11PQComplHeapIiE[0x7ffc501166d0]*4:
+ 0006 *      ┌─ 0006 
+ 0014 *── 0014 
+ 0009 *      └─ 0009 
+ 0006 *            └─ 0006 
+
+Deleting max ...
+Deletion done with 0014
+11PQComplHeapIiE[0x7ffc501166d0]*3:
+ 0006 *      ┌─ 0006 
+ 0009 *── 0009 
+ 0006 *      └─ 0006 
+
+Inserting 0010 ...
+Insertion done
+11PQComplHeapIiE[0x7ffc501166d0]*4:
+ 0006 *      ┌─ 0006 
+ 0010 *── 0010 
+ 0009 *      └─ 0009 
+ 0006 *            └─ 0006 
+
+Deleting max ...
+Deletion done with 0010
+11PQComplHeapIiE[0x7ffc501166d0]*3:
+ 0006 *      ┌─ 0006 
+ 0009 *── 0009 
+ 0006 *      └─ 0006 
+
+Inserting 0005 ...
+Insertion done
+11PQComplHeapIiE[0x7ffc501166d0]*4:
+ 0006 *      ┌─ 0006 
+ 0009 *── 0009 
+ 0006 *      └─ 0006 
+ 0005 *            └─ 0005 
+
+Inserting 0004 ...
+Insertion done
+11PQComplHeapIiE[0x7ffc501166d0]*5:
+ 0006 *      ┌─ 0006 
+ 0009 *── 0009 
+ 0004 *      │    ┌─ 0004 
+ 0006 *      └─ 0006 
+ 0005 *            └─ 0005 
+
+Deletion done with 0009
+11PQComplHeapIiE[0x7ffc501166d0]*4:
+ 0006 *      ┌─ 0006 
+ 0006 *── 0006 
+ 0005 *      └─ 0005 
+ 0004 *            └─ 0004 
+
+Deletion done with 0006
+11PQComplHeapIiE[0x7ffc501166d0]*3:
+ 0004 *      ┌─ 0004 
+ 0006 *── 0006 
+ 0005 *      └─ 0005 
+
+Deletion done with 0006
+11PQComplHeapIiE[0x7ffc501166d0]*2:
+ 0005 *── 0005 
+ 0004 *      └─ 0004 
+
+Deletion done with 0005
+11PQComplHeapIiE[0x7ffc501166d0]*1:
+ 0004 *── 0004 
+
+Deletion done with 0004
+11PQComplHeapIiE[0x7ffc501166d0]*0:
+
+2024-10-05 12:53:39
