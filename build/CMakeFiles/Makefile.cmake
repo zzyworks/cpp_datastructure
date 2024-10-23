@@ -134,5 +134,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/huffman/CMakeFiles/huffman.dir/DependInfo.cmake"
   "src/prime/CMakeFiles/prime.dir/DependInfo.cmake"
   "src/string_pm/CMakeFiles/string_pm.dir/DependInfo.cmake"
-  "tests/CMakeFiles/exe_string_pm.dir/DependInfo.cmake"
+  "tests/CMakeFiles/exe_sorts.dir/DependInfo.cmake"
   )

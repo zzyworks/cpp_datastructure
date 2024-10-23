@@ -215,9 +215,9 @@
 				},
 				{
 					"directoryIndex" : 6,
-					"id" : "exe_string_pm::@a44f0ac069e85531cdee",
-					"jsonFile" : "target-exe_string_pm-Debug-591c3ce510da6b62fb84.json",
-					"name" : "exe_string_pm",
+					"id" : "exe_sorts::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-exe_sorts-Debug-abe6496ef6ec3a1d2d27.json",
+					"name" : "exe_sorts",
 					"projectIndex" : 6
 				},
 				{

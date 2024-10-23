@@ -1,1 +1,0 @@
-/usr/bin/c++  -O0 -Wall -g2 -ggdb CMakeFiles/exe_string_pm.dir/main.cpp.o -o ../../bin/exe_string_pm   -L/home/zzy0/vscode_workspace/data_structure/lib  -Wl,-rpath,/home/zzy0/vscode_workspace/data_structure/lib ../../lib/libbitmap.a ../../lib/libhuffman.a ../../lib/libprime.a ../../lib/libstring_pm.a ../../lib/libbitmap.a 

@@ -1,14 +1,16 @@
-#include "heap_sort.hpp"
+#include "bubble_sort.hpp"
 #include "print.hpp"
 
-int arr[]{0, 1, 3, 5, 7, 9, 0, 1, 3, 5, 7, 9};
+void
+testBubbleSort() {
+  std::array<int, 20> arr = {1, 3, 5, 7, 9, 2, 4, 6, 8, 10,
+                             1, 3, 5, 7, 9, 2, 4, 6, 8, 10};
 
-void testHeapSort() {
   MSG("", "排序前...")
   for(int i : arr)
     print(i);
   print("\n");
-  heapSort(arr, 0, 12);
+  bubbleSort(arr, 0, arr.size());
   MSG("", "排序后...")
   for(int i : arr)
     print(i);
@@ -16,7 +18,7 @@ void testHeapSort() {
 }
 
 // #include "test_sorts.hpp"
-// 
+//
 // int
 // main(int argc, char* argv[]) {
 //   testHeapSort();

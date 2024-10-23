@@ -165,7 +165,7 @@ src/string_pm/clean: src/string_pm/CMakeFiles/string_pm.dir/clean
 # Directory level rules for directory tests
 
 # Recursive "all" directory target.
-tests/all: tests/CMakeFiles/exe_string_pm.dir/all
+tests/all: tests/CMakeFiles/exe_sorts.dir/all
 .PHONY : tests/all
 
 # Recursive "preinstall" directory target.
@@ -173,7 +173,7 @@ tests/preinstall:
 .PHONY : tests/preinstall
 
 # Recursive "clean" directory target.
-tests/clean: tests/CMakeFiles/exe_string_pm.dir/clean
+tests/clean: tests/CMakeFiles/exe_sorts.dir/clean
 .PHONY : tests/clean
 
 #=============================================================================
@@ -281,33 +281,30 @@ src/string_pm/CMakeFiles/string_pm.dir/clean:
 .PHONY : src/string_pm/CMakeFiles/string_pm.dir/clean
 
 #=============================================================================
-# Target rules for target tests/CMakeFiles/exe_string_pm.dir
+# Target rules for target tests/CMakeFiles/exe_sorts.dir
 
 # All Build rule for target.
-tests/CMakeFiles/exe_string_pm.dir/all: src/bitmap/CMakeFiles/bitmap.dir/all
-tests/CMakeFiles/exe_string_pm.dir/all: src/huffman/CMakeFiles/huffman.dir/all
-tests/CMakeFiles/exe_string_pm.dir/all: src/prime/CMakeFiles/prime.dir/all
-tests/CMakeFiles/exe_string_pm.dir/all: src/string_pm/CMakeFiles/string_pm.dir/all
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/exe_string_pm.dir/build.make tests/CMakeFiles/exe_string_pm.dir/depend
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/exe_string_pm.dir/build.make tests/CMakeFiles/exe_string_pm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zzy0/vscode_workspace/data_structure/build/CMakeFiles --progress-num=3,4 "Built target exe_string_pm"
-.PHONY : tests/CMakeFiles/exe_string_pm.dir/all
+tests/CMakeFiles/exe_sorts.dir/all:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/exe_sorts.dir/build.make tests/CMakeFiles/exe_sorts.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/exe_sorts.dir/build.make tests/CMakeFiles/exe_sorts.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zzy0/vscode_workspace/data_structure/build/CMakeFiles --progress-num=3,4 "Built target exe_sorts"
+.PHONY : tests/CMakeFiles/exe_sorts.dir/all
 
 # Build rule for subdir invocation for target.
-tests/CMakeFiles/exe_string_pm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/vscode_workspace/data_structure/build/CMakeFiles 14
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/exe_string_pm.dir/all
+tests/CMakeFiles/exe_sorts.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/vscode_workspace/data_structure/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/exe_sorts.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/vscode_workspace/data_structure/build/CMakeFiles 0
-.PHONY : tests/CMakeFiles/exe_string_pm.dir/rule
+.PHONY : tests/CMakeFiles/exe_sorts.dir/rule
 
 # Convenience name for target.
-exe_string_pm: tests/CMakeFiles/exe_string_pm.dir/rule
-.PHONY : exe_string_pm
+exe_sorts: tests/CMakeFiles/exe_sorts.dir/rule
+.PHONY : exe_sorts
 
 # clean rule for target.
-tests/CMakeFiles/exe_string_pm.dir/clean:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/exe_string_pm.dir/build.make tests/CMakeFiles/exe_string_pm.dir/clean
-.PHONY : tests/CMakeFiles/exe_string_pm.dir/clean
+tests/CMakeFiles/exe_sorts.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/exe_sorts.dir/build.make tests/CMakeFiles/exe_sorts.dir/clean
+.PHONY : tests/CMakeFiles/exe_sorts.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

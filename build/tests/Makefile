@@ -117,25 +117,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-tests/CMakeFiles/exe_string_pm.dir/rule:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/exe_string_pm.dir/rule
-.PHONY : tests/CMakeFiles/exe_string_pm.dir/rule
+tests/CMakeFiles/exe_sorts.dir/rule:
+	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/exe_sorts.dir/rule
+.PHONY : tests/CMakeFiles/exe_sorts.dir/rule
 
 # Convenience name for target.
-exe_string_pm: tests/CMakeFiles/exe_string_pm.dir/rule
-.PHONY : exe_string_pm
+exe_sorts: tests/CMakeFiles/exe_sorts.dir/rule
+.PHONY : exe_sorts
 
 # fast build rule for target.
-exe_string_pm/fast:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/exe_string_pm.dir/build.make tests/CMakeFiles/exe_string_pm.dir/build
-.PHONY : exe_string_pm/fast
+exe_sorts/fast:
+	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/exe_sorts.dir/build.make tests/CMakeFiles/exe_sorts.dir/build
+.PHONY : exe_sorts/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/exe_string_pm.dir/build.make tests/CMakeFiles/exe_string_pm.dir/main.cpp.o
+	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/exe_sorts.dir/build.make tests/CMakeFiles/exe_sorts.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -143,7 +143,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/exe_string_pm.dir/build.make tests/CMakeFiles/exe_string_pm.dir/main.cpp.i
+	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/exe_sorts.dir/build.make tests/CMakeFiles/exe_sorts.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -151,7 +151,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/exe_string_pm.dir/build.make tests/CMakeFiles/exe_string_pm.dir/main.cpp.s
+	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/exe_sorts.dir/build.make tests/CMakeFiles/exe_sorts.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -162,7 +162,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... exe_string_pm"
+	@echo "... exe_sorts"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

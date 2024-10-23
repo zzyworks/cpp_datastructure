@@ -4,7 +4,8 @@
 #include "pq_compl_heap.hpp"
 
 template<typename T>
-void heapSort(T* arr, size_type first, size_type last) {
+void
+heapSort(T* arr, size_type first, size_type last) {
   T* A = arr + first;
   size_type n = last - first;
   heapify(A, n);
@@ -15,4 +16,4 @@ void heapSort(T* arr, size_type first, size_type last) {
   }
 }
 
-#endif // HEAP_SORT_HPP
+#endif  // !HEAP_SORT_HPP
