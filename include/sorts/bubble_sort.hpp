@@ -2,27 +2,24 @@
 #define BUBBLE_SORT_HPP
 
 #include <array>
+#include <functional>
 
-template<typename T, std::size_t Size>
-bool
-bubble(std::array<T, Size>& arr, std::size_t first, std::size_t last) {
-  bool sorted = true;
-  while(++first < last) {
-    if(arr[first - 1] > arr[first]) {
-      sorted = false;
-      using std::swap;
-      swap(arr[first - 1], arr[first]);
-    }
-  }
-  return sorted;
-}
-
-// [first, last)
 template<typename T, std::size_t Size>
 void
-bubbleSort(std::array<T, Size>& arr, std::size_t first, std::size_t last) {
-  while(!bubble(arr, first, last--))
-    ;
+bubbleSort(std::array<T, Size>& arr,
+           std::function<bool(const T&, const T&)> cmp = std::less<T>()) {
+  for(int i = 0; i != static_cast<int>(Size) - 1; ++i) {
+    bool flag = true;
+    for(int j = 0; j != static_cast<int>(Size) - 1 - i; ++j) {
+      if(cmp(arr[j + 1], arr[j])) {
+        using std::swap;
+        swap(arr[j + 1], arr[j]);
+        flag = false;
+      }
+    }
+    if(flag)
+      break;
+  }
 }
 
 #endif  // ! BUBBLE_SORT_HPP

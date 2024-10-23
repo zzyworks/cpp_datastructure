@@ -2,6 +2,6 @@
 
 int
 main(int argc, char* argv[]) {
-  testBubbleSort();
+  testHeapSort();
   return 0;
 }
