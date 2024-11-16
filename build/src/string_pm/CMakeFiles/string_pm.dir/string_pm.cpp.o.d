@@ -1,8 +1,8 @@
 src/string_pm/CMakeFiles/string_pm.dir/string_pm.cpp.o: \
- /home/zzy0/vscode_workspace/data_structure/src/string_pm/string_pm.cpp \
+ /home/zzy0/workspace_vscode/data_structure/src/string_pm/string_pm.cpp \
  /usr/include/stdc-predef.h \
- /home/zzy0/vscode_workspace/data_structure/include/tests/test_string_pm.hpp \
- /home/zzy0/vscode_workspace/data_structure/include/string_pm/pm_brute.h \
+ /home/zzy0/workspace_vscode/data_structure/include/tests/test_string_pm.hpp \
+ /home/zzy0/workspace_vscode/data_structure/include/string_pm/pm_brute.h \
  /usr/include/c++/13/cstdio \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

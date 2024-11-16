@@ -1,4 +1,4 @@
-# Install script for directory: /home/zzy0/vscode_workspace/data_structure/src/prime
+# Install script for directory: /home/zzy0/workspace_vscode/data_structure/src/prime
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

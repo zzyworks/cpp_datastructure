@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zzy0/vscode_workspace/data_structure
+CMAKE_SOURCE_DIR = /home/zzy0/workspace_vscode/data_structure
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zzy0/vscode_workspace/data_structure/build
+CMAKE_BINARY_DIR = /home/zzy0/workspace_vscode/data_structure/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/vscode_workspace/data_structure/build/CMakeFiles /home/zzy0/vscode_workspace/data_structure/build/src/huffman//CMakeFiles/progress.marks
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/huffman/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/vscode_workspace/data_structure/build/CMakeFiles 0
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/workspace_vscode/data_structure/build/CMakeFiles /home/zzy0/workspace_vscode/data_structure/build/src/huffman//CMakeFiles/progress.marks
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/huffman/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/workspace_vscode/data_structure/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/huffman/clean
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/huffman/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/huffman/preinstall
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/huffman/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/huffman/preinstall
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/huffman/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/huffman/CMakeFiles/huffman.dir/rule:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/huffman/CMakeFiles/huffman.dir/rule
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/huffman/CMakeFiles/huffman.dir/rule
 .PHONY : src/huffman/CMakeFiles/huffman.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ huffman: src/huffman/CMakeFiles/huffman.dir/rule
 
 # fast build rule for target.
 huffman/fast:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/huffman/CMakeFiles/huffman.dir/build.make src/huffman/CMakeFiles/huffman.dir/build
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/huffman/CMakeFiles/huffman.dir/build.make src/huffman/CMakeFiles/huffman.dir/build
 .PHONY : huffman/fast
 
 buff_char.o: buff_char.cpp.o
@@ -135,7 +135,7 @@ buff_char.o: buff_char.cpp.o
 
 # target to build an object file
 buff_char.cpp.o:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/huffman/CMakeFiles/huffman.dir/build.make src/huffman/CMakeFiles/huffman.dir/buff_char.cpp.o
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/huffman/CMakeFiles/huffman.dir/build.make src/huffman/CMakeFiles/huffman.dir/buff_char.cpp.o
 .PHONY : buff_char.cpp.o
 
 buff_char.i: buff_char.cpp.i
@@ -143,7 +143,7 @@ buff_char.i: buff_char.cpp.i
 
 # target to preprocess a source file
 buff_char.cpp.i:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/huffman/CMakeFiles/huffman.dir/build.make src/huffman/CMakeFiles/huffman.dir/buff_char.cpp.i
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/huffman/CMakeFiles/huffman.dir/build.make src/huffman/CMakeFiles/huffman.dir/buff_char.cpp.i
 .PHONY : buff_char.cpp.i
 
 buff_char.s: buff_char.cpp.s
@@ -151,7 +151,7 @@ buff_char.s: buff_char.cpp.s
 
 # target to generate assembly for a file
 buff_char.cpp.s:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/huffman/CMakeFiles/huffman.dir/build.make src/huffman/CMakeFiles/huffman.dir/buff_char.cpp.s
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/huffman/CMakeFiles/huffman.dir/build.make src/huffman/CMakeFiles/huffman.dir/buff_char.cpp.s
 .PHONY : buff_char.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

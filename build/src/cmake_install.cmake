@@ -1,4 +1,4 @@
-# Install script for directory: /home/zzy0/vscode_workspace/data_structure/src
+# Install script for directory: /home/zzy0/workspace_vscode/data_structure/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,21 +44,21 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/zzy0/vscode_workspace/data_structure/build/src/bitmap/cmake_install.cmake")
+  include("/home/zzy0/workspace_vscode/data_structure/build/src/bitmap/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/zzy0/vscode_workspace/data_structure/build/src/huffman/cmake_install.cmake")
+  include("/home/zzy0/workspace_vscode/data_structure/build/src/huffman/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/zzy0/vscode_workspace/data_structure/build/src/prime/cmake_install.cmake")
+  include("/home/zzy0/workspace_vscode/data_structure/build/src/prime/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/zzy0/vscode_workspace/data_structure/build/src/string_pm/cmake_install.cmake")
+  include("/home/zzy0/workspace_vscode/data_structure/build/src/string_pm/cmake_install.cmake")
 endif()
 

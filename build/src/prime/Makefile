@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zzy0/vscode_workspace/data_structure
+CMAKE_SOURCE_DIR = /home/zzy0/workspace_vscode/data_structure
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zzy0/vscode_workspace/data_structure/build
+CMAKE_BINARY_DIR = /home/zzy0/workspace_vscode/data_structure/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/vscode_workspace/data_structure/build/CMakeFiles /home/zzy0/vscode_workspace/data_structure/build/src/prime//CMakeFiles/progress.marks
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/prime/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/vscode_workspace/data_structure/build/CMakeFiles 0
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/workspace_vscode/data_structure/build/CMakeFiles /home/zzy0/workspace_vscode/data_structure/build/src/prime//CMakeFiles/progress.marks
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/prime/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/workspace_vscode/data_structure/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/prime/clean
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/prime/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/prime/preinstall
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/prime/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/prime/preinstall
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/prime/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/prime/CMakeFiles/prime.dir/rule:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/prime/CMakeFiles/prime.dir/rule
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/prime/CMakeFiles/prime.dir/rule
 .PHONY : src/prime/CMakeFiles/prime.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ prime: src/prime/CMakeFiles/prime.dir/rule
 
 # fast build rule for target.
 prime/fast:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/prime/CMakeFiles/prime.dir/build.make src/prime/CMakeFiles/prime.dir/build
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/prime/CMakeFiles/prime.dir/build.make src/prime/CMakeFiles/prime.dir/build
 .PHONY : prime/fast
 
 eratosthenes.o: eratosthenes.cpp.o
@@ -135,7 +135,7 @@ eratosthenes.o: eratosthenes.cpp.o
 
 # target to build an object file
 eratosthenes.cpp.o:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/prime/CMakeFiles/prime.dir/build.make src/prime/CMakeFiles/prime.dir/eratosthenes.cpp.o
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/prime/CMakeFiles/prime.dir/build.make src/prime/CMakeFiles/prime.dir/eratosthenes.cpp.o
 .PHONY : eratosthenes.cpp.o
 
 eratosthenes.i: eratosthenes.cpp.i
@@ -143,7 +143,7 @@ eratosthenes.i: eratosthenes.cpp.i
 
 # target to preprocess a source file
 eratosthenes.cpp.i:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/prime/CMakeFiles/prime.dir/build.make src/prime/CMakeFiles/prime.dir/eratosthenes.cpp.i
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/prime/CMakeFiles/prime.dir/build.make src/prime/CMakeFiles/prime.dir/eratosthenes.cpp.i
 .PHONY : eratosthenes.cpp.i
 
 eratosthenes.s: eratosthenes.cpp.s
@@ -151,7 +151,7 @@ eratosthenes.s: eratosthenes.cpp.s
 
 # target to generate assembly for a file
 eratosthenes.cpp.s:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/prime/CMakeFiles/prime.dir/build.make src/prime/CMakeFiles/prime.dir/eratosthenes.cpp.s
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/prime/CMakeFiles/prime.dir/build.make src/prime/CMakeFiles/prime.dir/eratosthenes.cpp.s
 .PHONY : eratosthenes.cpp.s
 
 prime_nlt.o: prime_nlt.cpp.o
@@ -159,7 +159,7 @@ prime_nlt.o: prime_nlt.cpp.o
 
 # target to build an object file
 prime_nlt.cpp.o:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/prime/CMakeFiles/prime.dir/build.make src/prime/CMakeFiles/prime.dir/prime_nlt.cpp.o
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/prime/CMakeFiles/prime.dir/build.make src/prime/CMakeFiles/prime.dir/prime_nlt.cpp.o
 .PHONY : prime_nlt.cpp.o
 
 prime_nlt.i: prime_nlt.cpp.i
@@ -167,7 +167,7 @@ prime_nlt.i: prime_nlt.cpp.i
 
 # target to preprocess a source file
 prime_nlt.cpp.i:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/prime/CMakeFiles/prime.dir/build.make src/prime/CMakeFiles/prime.dir/prime_nlt.cpp.i
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/prime/CMakeFiles/prime.dir/build.make src/prime/CMakeFiles/prime.dir/prime_nlt.cpp.i
 .PHONY : prime_nlt.cpp.i
 
 prime_nlt.s: prime_nlt.cpp.s
@@ -175,7 +175,7 @@ prime_nlt.s: prime_nlt.cpp.s
 
 # target to generate assembly for a file
 prime_nlt.cpp.s:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/prime/CMakeFiles/prime.dir/build.make src/prime/CMakeFiles/prime.dir/prime_nlt.cpp.s
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/prime/CMakeFiles/prime.dir/build.make src/prime/CMakeFiles/prime.dir/prime_nlt.cpp.s
 .PHONY : prime_nlt.cpp.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/exe_string_pm.dir/main.cpp.o -o ../../bin/exe_string_pm   -L/home/zzy0/workspace_vscode/data_structure/lib  -Wl,-rpath,/home/zzy0/workspace_vscode/data_structure/lib ../../lib/libstring_pm.a 

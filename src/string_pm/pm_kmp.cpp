@@ -3,23 +3,22 @@
 
 int*
 buildNext(const char* P) {
-  int m = (int)strlen(P), j = 0;
-  int* next = new int[m];
+  int len = (int)strlen(P), j = 0;
+  int* next = new int[len];
   //next表，首项必为-1
-  int t = next[0] = -1;
-  while(j < m - 1) {
-    if(0 > t || P[t] == P[j]) {
-      ++t;
+  int k = next[0] = -1;
+  while(j < len - 1) {
+    if(k == -1 || P[j] == P[k]) {
+      ++k;
       ++j;
-      //则递增赋值：此处可改进...
-      next[j] = t;
+      next[j] = k;
     } else
       //继续尝试下一值得尝试的位置
-      t = next[t];
+      k = next[k];
   }
   /*DSA*/ printString(P);
   printf("\n");
-  /*DSA*/ printNext(next, 0, m);
+  /*DSA*/ printNext(next, 0, len);
   return next;
 }
 

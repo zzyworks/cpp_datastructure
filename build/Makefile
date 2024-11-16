@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zzy0/vscode_workspace/data_structure
+CMAKE_SOURCE_DIR = /home/zzy0/workspace_vscode/data_structure
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zzy0/vscode_workspace/data_structure/build
+CMAKE_BINARY_DIR = /home/zzy0/workspace_vscode/data_structure/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/vscode_workspace/data_structure/build/CMakeFiles /home/zzy0/vscode_workspace/data_structure/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/workspace_vscode/data_structure/build/CMakeFiles /home/zzy0/workspace_vscode/data_structure/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/vscode_workspace/data_structure/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/workspace_vscode/data_structure/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -169,17 +169,17 @@ string_pm/fast:
 .PHONY : string_pm/fast
 
 #=============================================================================
-# Target rules for targets named exe_sorts
+# Target rules for targets named exe_string_pm
 
 # Build rule for target.
-exe_sorts: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exe_sorts
-.PHONY : exe_sorts
+exe_string_pm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exe_string_pm
+.PHONY : exe_string_pm
 
 # fast build rule for target.
-exe_sorts/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/exe_sorts.dir/build.make tests/CMakeFiles/exe_sorts.dir/build
-.PHONY : exe_sorts/fast
+exe_string_pm/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/exe_string_pm.dir/build.make tests/CMakeFiles/exe_string_pm.dir/build
+.PHONY : exe_string_pm/fast
 
 # Help Target
 help:
@@ -190,7 +190,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... bitmap"
-	@echo "... exe_sorts"
+	@echo "... exe_string_pm"
 	@echo "... huffman"
 	@echo "... prime"
 	@echo "... string_pm"

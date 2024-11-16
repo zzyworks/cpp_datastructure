@@ -1,7 +1,7 @@
 src/prime/CMakeFiles/prime.dir/prime_nlt.cpp.o: \
- /home/zzy0/vscode_workspace/data_structure/src/prime/prime_nlt.cpp \
+ /home/zzy0/workspace_vscode/data_structure/src/prime/prime_nlt.cpp \
  /usr/include/stdc-predef.h \
- /home/zzy0/vscode_workspace/data_structure/include/bitmap/bitmap.h \
+ /home/zzy0/workspace_vscode/data_structure/include/bitmap/bitmap.h \
  /usr/include/c++/13/utility \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -114,4 +114,4 @@ src/prime/CMakeFiles/prime.dir/prime_nlt.cpp.o: \
  /usr/include/c++/13/bits/functional_hash.h \
  /usr/include/c++/13/bits/hash_bytes.h \
  /usr/include/c++/13/bits/basic_string.tcc \
- /home/zzy0/vscode_workspace/data_structure/include/prime/prime_nlt.h
+ /home/zzy0/workspace_vscode/data_structure/include/prime/prime_nlt.h

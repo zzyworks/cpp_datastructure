@@ -1,1 +1,1 @@
-/usr/bin/c++  -O0 -Wall -g2 -ggdb CMakeFiles/exe_sorts.dir/main.cpp.o -o ../../bin/exe_sorts 
+/usr/bin/g++ -g CMakeFiles/exe_sorts.dir/main.cpp.o -o ../../bin/exe_sorts   -L/home/zzy0/workspace_vscode/data_structure/lib  -Wl,-rpath,/home/zzy0/workspace_vscode/data_structure/lib ../../lib/libstring_pm.a 

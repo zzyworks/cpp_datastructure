@@ -1,5 +1,5 @@
 src/prime/CMakeFiles/prime.dir/eratosthenes.cpp.o: \
- /home/zzy0/vscode_workspace/data_structure/src/prime/eratosthenes.cpp \
+ /home/zzy0/workspace_vscode/data_structure/src/prime/eratosthenes.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/algorithm \
  /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -69,7 +69,7 @@ src/prime/CMakeFiles/prime.dir/eratosthenes.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/13/bits/std_abs.h \
- /home/zzy0/vscode_workspace/data_structure/include/bitmap/bitmap.h \
+ /home/zzy0/workspace_vscode/data_structure/include/bitmap/bitmap.h \
  /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
  /usr/include/c++/13/cstdio /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
@@ -116,4 +116,4 @@ src/prime/CMakeFiles/prime.dir/eratosthenes.cpp.o: \
  /usr/include/c++/13/bits/functional_hash.h \
  /usr/include/c++/13/bits/hash_bytes.h \
  /usr/include/c++/13/bits/basic_string.tcc \
- /home/zzy0/vscode_workspace/data_structure/include/prime/eratosthenes.h
+ /home/zzy0/workspace_vscode/data_structure/include/prime/eratosthenes.h

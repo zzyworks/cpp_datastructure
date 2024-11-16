@@ -1,4 +1,4 @@
-# Install script for directory: /home/zzy0/vscode_workspace/data_structure/src/bitmap
+# Install script for directory: /home/zzy0/workspace_vscode/data_structure/src/bitmap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

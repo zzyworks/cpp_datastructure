@@ -1,15 +1,11 @@
-# 使用cmake最低版本
 cmake_minimum_required(VERSION 3.20)
-# 项目名字
 project(data_structure)
-# 使用什么c++标准
 set(CMAKE_CXX_STANDARD 14)
-# 是否输出结合clangd的编译文件
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-set(CMAKE_BUILD_TYPE "Debug")
-set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g2 -ggdb")
-set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
+# set(CMAKE_BUILD_TYPE "Debug")
+# set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g2 -ggdb")
+# set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
 
 # 可执行文件路径
 set(bin_path ${CMAKE_CURRENT_SOURCE_DIR}/bin)

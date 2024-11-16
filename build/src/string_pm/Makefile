@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zzy0/vscode_workspace/data_structure
+CMAKE_SOURCE_DIR = /home/zzy0/workspace_vscode/data_structure
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zzy0/vscode_workspace/data_structure/build
+CMAKE_BINARY_DIR = /home/zzy0/workspace_vscode/data_structure/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/vscode_workspace/data_structure/build/CMakeFiles /home/zzy0/vscode_workspace/data_structure/build/src/string_pm//CMakeFiles/progress.marks
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/string_pm/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/vscode_workspace/data_structure/build/CMakeFiles 0
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/workspace_vscode/data_structure/build/CMakeFiles /home/zzy0/workspace_vscode/data_structure/build/src/string_pm//CMakeFiles/progress.marks
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/string_pm/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zzy0/workspace_vscode/data_structure/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/string_pm/clean
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/string_pm/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/string_pm/preinstall
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/string_pm/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/string_pm/preinstall
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/string_pm/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/string_pm/CMakeFiles/string_pm.dir/rule:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/string_pm/CMakeFiles/string_pm.dir/rule
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/string_pm/CMakeFiles/string_pm.dir/rule
 .PHONY : src/string_pm/CMakeFiles/string_pm.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ string_pm: src/string_pm/CMakeFiles/string_pm.dir/rule
 
 # fast build rule for target.
 string_pm/fast:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/build
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/build
 .PHONY : string_pm/fast
 
 pm_brute_1.o: pm_brute_1.cpp.o
@@ -135,7 +135,7 @@ pm_brute_1.o: pm_brute_1.cpp.o
 
 # target to build an object file
 pm_brute_1.cpp.o:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/pm_brute_1.cpp.o
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/pm_brute_1.cpp.o
 .PHONY : pm_brute_1.cpp.o
 
 pm_brute_1.i: pm_brute_1.cpp.i
@@ -143,7 +143,7 @@ pm_brute_1.i: pm_brute_1.cpp.i
 
 # target to preprocess a source file
 pm_brute_1.cpp.i:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/pm_brute_1.cpp.i
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/pm_brute_1.cpp.i
 .PHONY : pm_brute_1.cpp.i
 
 pm_brute_1.s: pm_brute_1.cpp.s
@@ -151,7 +151,7 @@ pm_brute_1.s: pm_brute_1.cpp.s
 
 # target to generate assembly for a file
 pm_brute_1.cpp.s:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/pm_brute_1.cpp.s
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/pm_brute_1.cpp.s
 .PHONY : pm_brute_1.cpp.s
 
 pm_brute_2.o: pm_brute_2.cpp.o
@@ -159,7 +159,7 @@ pm_brute_2.o: pm_brute_2.cpp.o
 
 # target to build an object file
 pm_brute_2.cpp.o:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/pm_brute_2.cpp.o
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/pm_brute_2.cpp.o
 .PHONY : pm_brute_2.cpp.o
 
 pm_brute_2.i: pm_brute_2.cpp.i
@@ -167,7 +167,7 @@ pm_brute_2.i: pm_brute_2.cpp.i
 
 # target to preprocess a source file
 pm_brute_2.cpp.i:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/pm_brute_2.cpp.i
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/pm_brute_2.cpp.i
 .PHONY : pm_brute_2.cpp.i
 
 pm_brute_2.s: pm_brute_2.cpp.s
@@ -175,7 +175,7 @@ pm_brute_2.s: pm_brute_2.cpp.s
 
 # target to generate assembly for a file
 pm_brute_2.cpp.s:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/pm_brute_2.cpp.s
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/pm_brute_2.cpp.s
 .PHONY : pm_brute_2.cpp.s
 
 pm_kmp.o: pm_kmp.cpp.o
@@ -183,7 +183,7 @@ pm_kmp.o: pm_kmp.cpp.o
 
 # target to build an object file
 pm_kmp.cpp.o:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/pm_kmp.cpp.o
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/pm_kmp.cpp.o
 .PHONY : pm_kmp.cpp.o
 
 pm_kmp.i: pm_kmp.cpp.i
@@ -191,7 +191,7 @@ pm_kmp.i: pm_kmp.cpp.i
 
 # target to preprocess a source file
 pm_kmp.cpp.i:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/pm_kmp.cpp.i
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/pm_kmp.cpp.i
 .PHONY : pm_kmp.cpp.i
 
 pm_kmp.s: pm_kmp.cpp.s
@@ -199,7 +199,7 @@ pm_kmp.s: pm_kmp.cpp.s
 
 # target to generate assembly for a file
 pm_kmp.cpp.s:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/pm_kmp.cpp.s
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/pm_kmp.cpp.s
 .PHONY : pm_kmp.cpp.s
 
 string_pm.o: string_pm.cpp.o
@@ -207,7 +207,7 @@ string_pm.o: string_pm.cpp.o
 
 # target to build an object file
 string_pm.cpp.o:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/string_pm.cpp.o
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/string_pm.cpp.o
 .PHONY : string_pm.cpp.o
 
 string_pm.i: string_pm.cpp.i
@@ -215,7 +215,7 @@ string_pm.i: string_pm.cpp.i
 
 # target to preprocess a source file
 string_pm.cpp.i:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/string_pm.cpp.i
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/string_pm.cpp.i
 .PHONY : string_pm.cpp.i
 
 string_pm.s: string_pm.cpp.s
@@ -223,7 +223,7 @@ string_pm.s: string_pm.cpp.s
 
 # target to generate assembly for a file
 string_pm.cpp.s:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/string_pm.cpp.s
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(MAKE) $(MAKESILENT) -f src/string_pm/CMakeFiles/string_pm.dir/build.make src/string_pm/CMakeFiles/string_pm.dir/string_pm.cpp.s
 .PHONY : string_pm.cpp.s
 
 # Help Target
@@ -258,6 +258,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/zzy0/vscode_workspace/data_structure/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/zzy0/workspace_vscode/data_structure/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

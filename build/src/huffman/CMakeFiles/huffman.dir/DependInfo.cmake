@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zzy0/vscode_workspace/data_structure/src/huffman/buff_char.cpp" "src/huffman/CMakeFiles/huffman.dir/buff_char.cpp.o" "gcc" "src/huffman/CMakeFiles/huffman.dir/buff_char.cpp.o.d"
+  "/home/zzy0/workspace_vscode/data_structure/src/huffman/buff_char.cpp" "src/huffman/CMakeFiles/huffman.dir/buff_char.cpp.o" "gcc" "src/huffman/CMakeFiles/huffman.dir/buff_char.cpp.o.d"
   )
 
 # Targets to which this target links.
